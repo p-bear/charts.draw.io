@@ -1,62 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2023-03-15T07:20:49.515Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="sAzaAsh6KnrWydBw0SKX" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-16T15:27:36.524Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="27vlTaDZ3s4aD8K6VMe3" version="21.0.6" type="github">
   <diagram name="페이지-1" id="ZdS5PLouykQ-mV_8aSSJ">
     <mxGraphModel dx="2074" dy="1163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JoHY_0zMTjgdmKWU9knp-2" value="Server" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="JoHY_0zMTjgdmKWU9knp-2" value="Server" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="50" y="430" width="810" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="JoHY_0zMTjgdmKWU9knp-3" value="Docker" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="JoHY_0zMTjgdmKWU9knp-2">
-          <mxGeometry x="27" y="50" width="750" height="280" as="geometry" />
+        <mxCell id="JoHY_0zMTjgdmKWU9knp-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://ko.wizcase.com/wp-content/uploads/2022/03/GitHub-Logo.png;" parent="1" vertex="1">
+          <mxGeometry x="153.51" y="210" width="212.97" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="JoHY_0zMTjgdmKWU9knp-15" value="1. CD request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.28;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="JoHY_0zMTjgdmKWU9knp-3" source="JoHY_0zMTjgdmKWU9knp-1" target="JoHY_0zMTjgdmKWU9knp-9">
-          <mxGeometry x="0.6338" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="JoHY_0zMTjgdmKWU9knp-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://d2uleea4buiacg.cloudfront.net/files/fa2/fa204630bed1deaf4e18a19a180f885934b613c6293584180ef1412fe8ed5283.m.png;" parent="1" vertex="1">
+          <mxGeometry x="100" y="820" width="640" height="226.46" as="geometry" />
         </mxCell>
-        <mxCell id="JoHY_0zMTjgdmKWU9knp-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.jenkins.io/images/logo-title-opengraph.png;" vertex="1" parent="JoHY_0zMTjgdmKWU9knp-3">
-          <mxGeometry x="53" y="55" width="260" height="130" as="geometry" />
+        <mxCell id="JoHY_0zMTjgdmKWU9knp-11" value="CI" style="swimlane;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
+          <mxGeometry x="20" y="150" width="500" height="920" as="geometry" />
         </mxCell>
-        <mxCell id="JoHY_0zMTjgdmKWU9knp-7" value="2. build project" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="JoHY_0zMTjgdmKWU9knp-3" source="JoHY_0zMTjgdmKWU9knp-1" target="JoHY_0zMTjgdmKWU9knp-1">
+        <mxCell id="JoHY_0zMTjgdmKWU9knp-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.jenkins.io/images/logo-title-opengraph.png;" parent="JoHY_0zMTjgdmKWU9knp-11" vertex="1">
+          <mxGeometry x="110" y="395" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="JoHY_0zMTjgdmKWU9knp-7" value="2. build project" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=16;" parent="JoHY_0zMTjgdmKWU9knp-11" source="JoHY_0zMTjgdmKWU9knp-1" target="JoHY_0zMTjgdmKWU9knp-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="383" y="88" />
-              <mxPoint x="383" y="153" />
+              <mxPoint x="430" y="428" />
+              <mxPoint x="430" y="493" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JoHY_0zMTjgdmKWU9knp-9" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=api" vertex="1" parent="JoHY_0zMTjgdmKWU9knp-3">
-          <mxGeometry x="503" y="60.25" width="187" height="159.5" as="geometry" />
-        </mxCell>
-        <mxCell id="JoHY_0zMTjgdmKWU9knp-6" value="1. pull source" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="JoHY_0zMTjgdmKWU9knp-4" target="JoHY_0zMTjgdmKWU9knp-1">
-          <mxGeometry x="-0.3171" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="JoHY_0zMTjgdmKWU9knp-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://ko.wizcase.com/wp-content/uploads/2022/03/GitHub-Logo.png;" vertex="1" parent="1">
-          <mxGeometry x="153.51" y="210" width="212.97" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="JoHY_0zMTjgdmKWU9knp-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://d2uleea4buiacg.cloudfront.net/files/fa2/fa204630bed1deaf4e18a19a180f885934b613c6293584180ef1412fe8ed5283.m.png;" vertex="1" parent="1">
-          <mxGeometry x="100" y="820" width="640" height="226.46" as="geometry" />
-        </mxCell>
-        <mxCell id="JoHY_0zMTjgdmKWU9knp-8" value="3. push docker image" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="JoHY_0zMTjgdmKWU9knp-1" target="JoHY_0zMTjgdmKWU9knp-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="800" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="JoHY_0zMTjgdmKWU9knp-11" value="CI" style="swimlane;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
-          <mxGeometry x="20" y="150" width="500" height="920" as="geometry" />
-        </mxCell>
-        <mxCell id="JoHY_0zMTjgdmKWU9knp-12" value="CD" style="swimlane;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+        <mxCell id="JoHY_0zMTjgdmKWU9knp-12" value="CD" style="swimlane;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
           <mxGeometry x="520" y="150" width="370" height="920" as="geometry" />
         </mxCell>
-        <mxCell id="JoHY_0zMTjgdmKWU9knp-14" value="2. pull image" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;fontSize=16;" edge="1" parent="1" source="JoHY_0zMTjgdmKWU9knp-9" target="JoHY_0zMTjgdmKWU9knp-5">
+        <mxCell id="JoHY_0zMTjgdmKWU9knp-9" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=api" parent="JoHY_0zMTjgdmKWU9knp-12" vertex="1">
+          <mxGeometry x="60" y="390.25" width="187" height="159.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JoHY_0zMTjgdmKWU9knp-3" value="Docker" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" parent="JoHY_0zMTjgdmKWU9knp-12" vertex="1">
+          <mxGeometry x="10" y="330" width="307" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="JoHY_0zMTjgdmKWU9knp-14" value="2. pull image" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;fontSize=16;" parent="1" source="JoHY_0zMTjgdmKWU9knp-9" target="JoHY_0zMTjgdmKWU9knp-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="800" y="620" />
               <mxPoint x="800" y="933" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JoHY_0zMTjgdmKWU9knp-15" value="1. CD request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" parent="1" source="JoHY_0zMTjgdmKWU9knp-1" target="JoHY_0zMTjgdmKWU9knp-9" edge="1">
+          <mxGeometry x="0.6338" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1602.3600000000001" y="548.155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JoHY_0zMTjgdmKWU9knp-8" value="3. push docker image" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="JoHY_0zMTjgdmKWU9knp-1" target="JoHY_0zMTjgdmKWU9knp-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JoHY_0zMTjgdmKWU9knp-6" value="1. pull source" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="JoHY_0zMTjgdmKWU9knp-4" target="JoHY_0zMTjgdmKWU9knp-1" edge="1">
+          <mxGeometry x="-0.3171" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1230" y="180" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
