@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2023-03-20T07:22:18.073Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.0.6" etag="w24OhxqBurwXRIASHElL" type="github"><diagram name="페이지-1" id="g1cnfVh0uurfjH_YH0U_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-20T08:23:26.330Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="sOL8ova06T-4XKXNqbbP" version="21.0.6" type="github">
+  <diagram name="페이지-1" id="g1cnfVh0uurfjH_YH0U_">
+    <mxGraphModel dx="2074" dy="1163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tpZhTkGgrvsaGV_lqaD--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tpZhTkGgrvsaGV_lqaD--1" target="tpZhTkGgrvsaGV_lqaD--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tpZhTkGgrvsaGV_lqaD--1" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="390" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tpZhTkGgrvsaGV_lqaD--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tpZhTkGgrvsaGV_lqaD--4" target="tpZhTkGgrvsaGV_lqaD--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tpZhTkGgrvsaGV_lqaD--4" value="Api Server" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=api;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="390" y="340" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tpZhTkGgrvsaGV_lqaD--5" value="DB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="700" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tpZhTkGgrvsaGV_lqaD--6" value="DB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="80" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tpZhTkGgrvsaGV_lqaD--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tpZhTkGgrvsaGV_lqaD--7" target="tpZhTkGgrvsaGV_lqaD--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tpZhTkGgrvsaGV_lqaD--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tpZhTkGgrvsaGV_lqaD--7" target="tpZhTkGgrvsaGV_lqaD--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tpZhTkGgrvsaGV_lqaD--7" value="Orchestration Server" style="perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="780" y="340" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tpZhTkGgrvsaGV_lqaD--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tpZhTkGgrvsaGV_lqaD--8" target="tpZhTkGgrvsaGV_lqaD--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tpZhTkGgrvsaGV_lqaD--8" value="결제 처리 서버" style="perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="780" y="650" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tpZhTkGgrvsaGV_lqaD--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tpZhTkGgrvsaGV_lqaD--9" target="tpZhTkGgrvsaGV_lqaD--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tpZhTkGgrvsaGV_lqaD--9" value="주문 처리 서버" style="perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="780" y="30" width="200" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
