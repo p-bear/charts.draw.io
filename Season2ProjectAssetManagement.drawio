@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-11T03:46:53.286Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.94 Safari/537.36 NetHelper70" etag="d1tTDVpGn0oBMXQWqxwr" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-11T06:51:39.658Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.94 Safari/537.36 NetHelper70" etag="Xgbg3OJePkSIW8ClsK9U" version="24.0.4" type="github">
   <diagram name="페이지-1" id="6smUFEKWVkIZyXx7Bukp">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,7 +76,7 @@
         <mxCell id="sYjiLbDPjaKwEEcCY0Ay-1" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Roles&lt;br&gt;&lt;/b&gt;&lt;/span&gt;- Data Store&lt;br&gt;&lt;div&gt;- Data Processing&lt;/div&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#6C767D;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#212529;verticalAlign=bottom;align=left;spacing=20;spacingBottom=0;fontSize=14;" vertex="1" parent="J-4PL1bRExIhTpd28Z0a-43">
           <mxGeometry x="362" y="430.92" width="270" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="sYjiLbDPjaKwEEcCY0Ay-2" value="Asset Core" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;resizeWidth=1;fontSize=18;align=left;spacing=20;" vertex="1" parent="sYjiLbDPjaKwEEcCY0Ay-1">
+        <mxCell id="sYjiLbDPjaKwEEcCY0Ay-2" value="Asset&amp;nbsp; Business" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;resizeWidth=1;fontSize=18;align=left;spacing=20;" vertex="1" parent="sYjiLbDPjaKwEEcCY0Ay-1">
           <mxGeometry width="270" height="50" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sYjiLbDPjaKwEEcCY0Ay-3" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Roles&lt;br&gt;&lt;/b&gt;&lt;/span&gt;- Business for Frontend" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#6C767D;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#212529;verticalAlign=bottom;align=left;spacing=20;spacingBottom=0;fontSize=14;" vertex="1" parent="J-4PL1bRExIhTpd28Z0a-43">
