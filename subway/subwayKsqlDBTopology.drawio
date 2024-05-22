@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T09:31:33.350Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.203 Safari/537.36 NetHelper70" etag="ZnS_L2pIA-xtL8J1HZKF" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-22T09:12:03.046Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.203 Safari/537.36 NetHelper70" etag="RurWTK0FICiCKNEFPNTl" version="24.4.4" type="github">
   <diagram name="페이지-1" id="JWyKKp6nfTICBsnojCP5">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,11 +10,14 @@
         <mxCell id="SGr65tSHeNTUfyerGdpC-16" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;data.subway.stations&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;key: STATN_ID&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SGr65tSHeNTUfyerGdpC-49" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;data.subway.stations.statistics&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;key: yyyyMMdd::stationId&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="560" y="40" width="220" height="40" as="geometry" />
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SGr65tSHeNTUfyerGdpC-49" target="RbUUMxCJgV2qU2qVmSNO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SGr65tSHeNTUfyerGdpC-49" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;data.subway.stations.statistics&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="560" y="40" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SGr65tSHeNTUfyerGdpC-55" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="350" y="1570" width="240" height="40" as="geometry" />
+          <mxGeometry x="360" y="1480" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SGr65tSHeNTUfyerGdpC-50" value="" style="shape=rhombus;html=1;dashed=0;whiteSpace=wrap;perimeter=rhombusPerimeter;" parent="SGr65tSHeNTUfyerGdpC-55" vertex="1">
           <mxGeometry width="40" height="40" as="geometry" />
@@ -24,43 +27,8 @@
             <mxPoint x="40" y="20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SGr65tSHeNTUfyerGdpC-54" value="isSuccess ?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="SGr65tSHeNTUfyerGdpC-55" vertex="1">
+        <mxCell id="SGr65tSHeNTUfyerGdpC-54" value="ID IS NOT NULL?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="SGr65tSHeNTUfyerGdpC-55" vertex="1">
           <mxGeometry x="80" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="SGr65tSHeNTUfyerGdpC-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SGr65tSHeNTUfyerGdpC-57" target="SGr65tSHeNTUfyerGdpC-63" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="SGr65tSHeNTUfyerGdpC-57" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;data.subway.stations.statistics.fail&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;key: yyyyMMdd::stationName::lineNum&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="380" y="1650" width="220" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="SGr65tSHeNTUfyerGdpC-59" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SGr65tSHeNTUfyerGdpC-50" target="SGr65tSHeNTUfyerGdpC-57" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SGr65tSHeNTUfyerGdpC-63" value="// TODO:&lt;div&gt;실패한 Data 매칭&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="630" y="1650" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="SGr65tSHeNTUfyerGdpC-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SGr65tSHeNTUfyerGdpC-44" target="SGr65tSHeNTUfyerGdpC-50" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="SGr65tSHeNTUfyerGdpC-91" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="350" y="1450" width="240" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SGr65tSHeNTUfyerGdpC-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="SGr65tSHeNTUfyerGdpC-91" source="SGr65tSHeNTUfyerGdpC-46" target="SGr65tSHeNTUfyerGdpC-44" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="SGr65tSHeNTUfyerGdpC-46" value="Merge and transform Station Data with Statistics Data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="SGr65tSHeNTUfyerGdpC-91" vertex="1">
-          <mxGeometry x="80" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SGr65tSHeNTUfyerGdpC-90" value="" style="group" parent="SGr65tSHeNTUfyerGdpC-91" vertex="1" connectable="0">
-          <mxGeometry y="20" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="SGr65tSHeNTUfyerGdpC-44" value="" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="SGr65tSHeNTUfyerGdpC-90" vertex="1">
-          <mxGeometry width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="SGr65tSHeNTUfyerGdpC-89" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="SGr65tSHeNTUfyerGdpC-90" vertex="1">
-          <mxGeometry x="5" y="5" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jmPw7cZxUE827dNbfJnY-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SGr65tSHeNTUfyerGdpC-39" target="jmPw7cZxUE827dNbfJnY-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -79,34 +47,34 @@
         <mxCell id="jmPw7cZxUE827dNbfJnY-23" value="STATIONS_DATA_STREAM" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="jmPw7cZxUE827dNbfJnY-31" vertex="1">
           <mxGeometry x="120" width="280" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="jmPw7cZxUE827dNbfJnY-24" value="&lt;div&gt;CREATE STREAM STATIONS_DATA_STREAM AS&lt;/div&gt;&lt;div&gt;SELECT&lt;/div&gt;&lt;div&gt;&amp;nbsp; data-&amp;gt;STATN_ID AS ID,&lt;/div&gt;&lt;div&gt;&amp;nbsp; data-&amp;gt;STATN_NM AS NAME,&lt;/div&gt;&lt;div&gt;&amp;nbsp; data-&amp;gt;ROUTE AS LINE_NUM,&lt;/div&gt;&lt;div&gt;&amp;nbsp; data-&amp;gt;CRDNT_X AS LATITUDE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; data-&amp;gt;CRDNT_Y AS LONGITUDE&lt;/div&gt;&lt;div&gt;FROM SOURCE_STATIONS_STREAM&lt;/div&gt;&lt;div&gt;EMIT CHANGES;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="jmPw7cZxUE827dNbfJnY-23" vertex="1">
+        <mxCell id="jmPw7cZxUE827dNbfJnY-24" value="&lt;div&gt;CREATE STREAM STATIONS_DATA_STREAM&lt;/div&gt;&lt;div&gt;AS SELECT&lt;/div&gt;&lt;div&gt;&amp;nbsp; data-&amp;gt;STATN_ID AS ID,&lt;/div&gt;&lt;div&gt;&amp;nbsp; data-&amp;gt;STATN_NM AS NAME,&lt;/div&gt;&lt;div&gt;&amp;nbsp; data-&amp;gt;ROUTE AS LINE_NUM,&lt;/div&gt;&lt;div&gt;&amp;nbsp; data-&amp;gt;CRDNT_X AS LATITUDE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; data-&amp;gt;CRDNT_Y AS LONGITUDE&lt;/div&gt;&lt;div&gt;FROM SOURCE_STATIONS_STREAM&lt;/div&gt;&lt;div&gt;EMIT CHANGES;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="jmPw7cZxUE827dNbfJnY-23" vertex="1">
           <mxGeometry y="29" width="280" height="171" as="geometry" />
         </mxCell>
         <mxCell id="jmPw7cZxUE827dNbfJnY-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jmPw7cZxUE827dNbfJnY-21" target="jmPw7cZxUE827dNbfJnY-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RbUUMxCJgV2qU2qVmSNO-1" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="120" y="680" width="400" height="240" as="geometry" />
+          <mxGeometry x="120" y="800" width="400" height="280" as="geometry" />
         </mxCell>
         <mxCell id="jmPw7cZxUE827dNbfJnY-33" value="" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="RbUUMxCJgV2qU2qVmSNO-1" vertex="1">
-          <mxGeometry y="114.5" width="40" height="40" as="geometry" />
+          <mxGeometry y="134.5" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jmPw7cZxUE827dNbfJnY-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="RbUUMxCJgV2qU2qVmSNO-1" source="jmPw7cZxUE827dNbfJnY-36" target="jmPw7cZxUE827dNbfJnY-33" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80" y="110" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jmPw7cZxUE827dNbfJnY-35" value="STATIONS_NAME_LINE_TABLE" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="RbUUMxCJgV2qU2qVmSNO-1" vertex="1">
-          <mxGeometry x="120" width="280" height="240" as="geometry" />
+        <mxCell id="jmPw7cZxUE827dNbfJnY-35" value="JOIN_SS_1_TABLE" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="RbUUMxCJgV2qU2qVmSNO-1" vertex="1">
+          <mxGeometry x="120" width="280" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="jmPw7cZxUE827dNbfJnY-36" value="&lt;div&gt;CREATE TABLE STATIONS_NAME_LINE_TABLE AS&lt;/div&gt;&lt;div&gt;SELECT&lt;/div&gt;&lt;div&gt;&amp;nbsp; ID,&lt;/div&gt;&lt;div&gt;&amp;nbsp; LATEST_BY_OFFSET(NAME) AS NAME,&lt;/div&gt;&lt;div&gt;&amp;nbsp; LATEST_BY_OFFSET(LINE_NUM) AS LINE_NUM,&lt;/div&gt;&lt;div&gt;&amp;nbsp; LATEST_BY_OFFSET(LATITUDE) AS LATITUDE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; LATEST_BY_OFFSET(LONGITUDE) AS LONGITUDE&lt;/div&gt;&lt;div&gt;FROM STATIONS_DATA_STREAM&lt;/div&gt;&lt;div&gt;GROUP BY ID&lt;/div&gt;&lt;div&gt;EMIT CHANGES;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="jmPw7cZxUE827dNbfJnY-35" vertex="1">
-          <mxGeometry y="29" width="280" height="211" as="geometry" />
+        <mxCell id="jmPw7cZxUE827dNbfJnY-36" value="&lt;div&gt;CREATE TABLE JOIN_SS_1_TABLE&lt;/div&gt;&lt;div&gt;WITH (KEY_FORMAT = &#39;JSON&#39;)&lt;/div&gt;&lt;div&gt;AS SELECT&lt;/div&gt;&lt;div&gt;&amp;nbsp; STRUCT(NAME := NAME, LINE_NUM := LINE_NUM) AS K,&lt;/div&gt;&lt;div&gt;&amp;nbsp; LATEST_BY_OFFSET(ID) AS ID,&lt;/div&gt;&lt;div&gt;&amp;nbsp; LATEST_BY_OFFSET(LATITUDE) AS LATITUDE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; LATEST_BY_OFFSET(LONGITUDE) AS LONGITUDE&lt;/div&gt;&lt;div&gt;FROM STATIONS_DATA_STREAM&lt;/div&gt;&lt;div&gt;GROUP BY STRUCT(NAME := NAME, LINE_NUM := LINE_NUM)&lt;/div&gt;&lt;div&gt;EMIT CHANGES;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="jmPw7cZxUE827dNbfJnY-35" vertex="1">
+          <mxGeometry y="29" width="280" height="251" as="geometry" />
         </mxCell>
         <mxCell id="RbUUMxCJgV2qU2qVmSNO-2" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="120" y="120" width="400" height="240" as="geometry" />
+          <mxGeometry x="120" y="120" width="400" height="280" as="geometry" />
         </mxCell>
         <mxCell id="SGr65tSHeNTUfyerGdpC-39" value="" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="RbUUMxCJgV2qU2qVmSNO-2" vertex="1">
-          <mxGeometry y="114.5" width="40" height="40" as="geometry" />
+          <mxGeometry y="134.5" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SGr65tSHeNTUfyerGdpC-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="RbUUMxCJgV2qU2qVmSNO-2" source="jmPw7cZxUE827dNbfJnY-11" target="SGr65tSHeNTUfyerGdpC-39" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -114,10 +82,158 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jmPw7cZxUE827dNbfJnY-10" value="SOURCE_STATIONS_STREAM" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="RbUUMxCJgV2qU2qVmSNO-2" vertex="1">
+          <mxGeometry x="120" width="280" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="jmPw7cZxUE827dNbfJnY-11" value="&lt;div&gt;CREATE STREAM SOURCE_STATIONS_STREAM (&lt;/div&gt;&lt;div&gt;&amp;nbsp; id VARCHAR,&lt;/div&gt;&lt;div&gt;&amp;nbsp; messageType VARCHAR,&lt;/div&gt;&lt;div&gt;&amp;nbsp; issuer VARCHAR,&lt;/div&gt;&lt;div&gt;&amp;nbsp; timestamp VARCHAR,&lt;/div&gt;&lt;div&gt;&amp;nbsp; data STRUCT&amp;lt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; STATN_ID VARCHAR,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; STATN_NM VARCHAR,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ROUTE VARCHAR,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; CRDNT_X VARCHAR,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; CRDNT_Y VARCHAR&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;gt;&lt;/div&gt;&lt;div&gt;) WITH (KAFKA_TOPIC=&#39;data.subway.stations&#39;, VALUE_FORMAT=&#39;JSON&#39;);&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="jmPw7cZxUE827dNbfJnY-10" vertex="1">
+          <mxGeometry y="29" width="280" height="251" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-3" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="640" y="120" width="400" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-4" value="" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="RbUUMxCJgV2qU2qVmSNO-3">
+          <mxGeometry y="154.5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="RbUUMxCJgV2qU2qVmSNO-3" source="RbUUMxCJgV2qU2qVmSNO-7" target="RbUUMxCJgV2qU2qVmSNO-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="110" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-6" value="SOURCE_STATIONS_STATISTICS_STREAM" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="RbUUMxCJgV2qU2qVmSNO-3">
+          <mxGeometry x="120" width="280" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-7" value="&lt;div&gt;CREATE STREAM SOURCE_STATIONS_STATISTICS_STREAM (&lt;/div&gt;&lt;div&gt;&amp;nbsp; id VARCHAR,&lt;/div&gt;&lt;div&gt;&amp;nbsp; messageType VARCHAR,&lt;/div&gt;&lt;div&gt;&amp;nbsp; issuer VARCHAR,&lt;/div&gt;&lt;div&gt;&amp;nbsp; timestamp VARCHAR,&lt;/div&gt;&lt;div&gt;&amp;nbsp; data STRUCT&amp;lt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; SUB_STA_NM VARCHAR,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; LINE_NUM VARCHAR,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; RIDE_PASGR_NUM INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ALIGHT_PASGR_NUM INT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; USE_DT VARCHAR,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; WORK_DT VARCHAR&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;gt;&lt;/div&gt;&lt;div&gt;) WITH (KAFKA_TOPIC=&#39;data.subway.stations.statistics&#39;, VALUE_FORMAT=&#39;JSON&#39;);&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="RbUUMxCJgV2qU2qVmSNO-6">
+          <mxGeometry y="29" width="280" height="291" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="640" y="480" width="400" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-9" value="" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="RbUUMxCJgV2qU2qVmSNO-8">
+          <mxGeometry y="134.5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="RbUUMxCJgV2qU2qVmSNO-8" source="RbUUMxCJgV2qU2qVmSNO-12" target="RbUUMxCJgV2qU2qVmSNO-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="110" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-11" value="STATIONS_STATISTICS_DATA_STREAM" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="RbUUMxCJgV2qU2qVmSNO-8">
+          <mxGeometry x="120" width="280" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-12" value="&lt;div&gt;CREATE STREAM STATIONS_STATISTICS_DATA_STREAM&lt;/div&gt;&lt;div&gt;AS&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;SELECT&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; data-&amp;gt;SUB_STA_NM AS NAME,&lt;/div&gt;&lt;div&gt;&amp;nbsp; data-&amp;gt;LINE_NUM AS LINE_NUM,&lt;/div&gt;&lt;div&gt;&amp;nbsp; data-&amp;gt;RIDE_PASGR_NUM AS RIDE_PASGR_NUM,&lt;/div&gt;&lt;div&gt;&amp;nbsp; data-&amp;gt;ALIGHT_PASGR_NUM AS ALIGHT_PASGR_NUM,&lt;/div&gt;&lt;div&gt;&amp;nbsp; data-&amp;gt;USE_DT AS USE_DATE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; data-&amp;gt;WORK_DT AS WORK_DATE&lt;/div&gt;&lt;div&gt;FROM SOURCE_STATIONS_STATISTICS_STREAM&lt;/div&gt;&lt;div&gt;EMIT CHANGES;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="RbUUMxCJgV2qU2qVmSNO-11">
+          <mxGeometry y="29" width="280" height="251" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-13" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="640" y="800" width="400" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-14" value="" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="RbUUMxCJgV2qU2qVmSNO-13">
+          <mxGeometry y="154.5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="RbUUMxCJgV2qU2qVmSNO-13" source="RbUUMxCJgV2qU2qVmSNO-17" target="RbUUMxCJgV2qU2qVmSNO-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="110" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-16" value="JOIN_SS_2_TABLE" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="RbUUMxCJgV2qU2qVmSNO-13">
+          <mxGeometry x="120" width="280" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-17" value="&lt;div&gt;CREATE TABLE JOIN_SS_2_TABLE&lt;/div&gt;&lt;div&gt;WITH (&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY_FORMAT=&#39;JSON&#39;&lt;/div&gt;&lt;div&gt;)&lt;/div&gt;&lt;div&gt;AS SELECT&lt;/div&gt;&lt;div&gt;&amp;nbsp; STRUCT(NAME := NAME, LINE_NUM := LINE_NUM) AS K,&lt;/div&gt;&lt;div&gt;&amp;nbsp; LATEST_BY_OFFSET(RIDE_PASGR_NUM) AS RIDE_PASGR_NUM,&lt;/div&gt;&lt;div&gt;&amp;nbsp; LATEST_BY_OFFSET(ALIGHT_PASGR_NUM) AS ALIGHT_PASGR_NUM,&lt;/div&gt;&lt;div&gt;&amp;nbsp; USE_DATE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; LATEST_BY_OFFSET(WORK_DATE) AS WORK_DATE&lt;/div&gt;&lt;div&gt;FROM STATIONS_STATISTICS_DATA_STREAM&lt;/div&gt;&lt;div&gt;GROUP BY STRUCT(NAME := NAME, LINE_NUM := LINE_NUM), USE_DATE&lt;/div&gt;&lt;div&gt;EMIT CHANGES;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="RbUUMxCJgV2qU2qVmSNO-16">
+          <mxGeometry y="29" width="280" height="291" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-24" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="360" y="1200" width="400" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="RbUUMxCJgV2qU2qVmSNO-24" source="RbUUMxCJgV2qU2qVmSNO-22" target="SGr65tSHeNTUfyerGdpC-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="110" as="sourcePoint" />
+            <mxPoint x="40" y="134.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-21" value="JOIN_SS_3_TABLE" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="RbUUMxCJgV2qU2qVmSNO-24">
           <mxGeometry x="120" width="280" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="jmPw7cZxUE827dNbfJnY-11" value="&lt;div&gt;CREATE STREAM SOURCE_STATIONS_STREAM (&lt;/div&gt;&lt;div&gt;&amp;nbsp; id VARCHAR,&lt;/div&gt;&lt;div&gt;&amp;nbsp; messageType VARCHAR,&lt;/div&gt;&lt;div&gt;&amp;nbsp; issuer VARCHAR,&lt;/div&gt;&lt;div&gt;&amp;nbsp; timestamp VARCHAR,&lt;/div&gt;&lt;div&gt;&amp;nbsp; data STRUCT&amp;lt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; STATN_ID VARCHAR,&lt;/div&gt;&lt;div&gt;&amp;nbsp; STATN_NM VARCHAR,&lt;/div&gt;&lt;div&gt;&amp;nbsp; ROUTE VARCHAR,&lt;/div&gt;&lt;div&gt;&amp;nbsp; CRDNT_X VARCHAR,&lt;/div&gt;&lt;div&gt;&amp;nbsp; CRDNT_Y VARCHAR&amp;gt;&lt;/div&gt;&lt;div&gt;) WITH (KAFKA_TOPIC=&#39;data.subway.stations&#39;, VALUE_FORMAT=&#39;JSON&#39;);&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="jmPw7cZxUE827dNbfJnY-10" vertex="1">
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-22" value="&lt;div&gt;CREATE TABLE JOIN_SS_3_TABLE&lt;/div&gt;&lt;div&gt;AS SELECT&lt;/div&gt;&lt;div&gt;&amp;nbsp; STAT.K AS K,&lt;/div&gt;&lt;div&gt;&amp;nbsp; RIDE_PASGR_NUM,&lt;/div&gt;&lt;div&gt;&amp;nbsp; ALIGHT_PASGR_NUM,&lt;/div&gt;&lt;div&gt;&amp;nbsp; USE_DATE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; STATION.ID,&lt;/div&gt;&lt;div&gt;&amp;nbsp; STATION.LATITUDE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; STATION.LONGITUDE&lt;/div&gt;&lt;div&gt;FROM JOIN_SS_2_TABLE STAT&lt;/div&gt;&lt;div&gt;LEFT JOIN JOIN_SS_1_TABLE STATION&lt;/div&gt;&lt;div&gt;ON STAT.K = STATION.K&lt;/div&gt;&lt;div&gt;EMIT CHANGES;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="RbUUMxCJgV2qU2qVmSNO-21">
           <mxGeometry y="29" width="280" height="211" as="geometry" />
+        </mxCell>
+        <mxCell id="SGr65tSHeNTUfyerGdpC-90" value="" style="group" parent="RbUUMxCJgV2qU2qVmSNO-24" vertex="1" connectable="0">
+          <mxGeometry y="115" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SGr65tSHeNTUfyerGdpC-44" value="" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="SGr65tSHeNTUfyerGdpC-90" vertex="1">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SGr65tSHeNTUfyerGdpC-89" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="SGr65tSHeNTUfyerGdpC-90" vertex="1">
+          <mxGeometry x="5" y="5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-25" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="120" y="1600" width="400" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-26" value="" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="RbUUMxCJgV2qU2qVmSNO-25">
+          <mxGeometry y="114.5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="RbUUMxCJgV2qU2qVmSNO-25" source="RbUUMxCJgV2qU2qVmSNO-29" target="RbUUMxCJgV2qU2qVmSNO-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="110" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-28" value="STATION_STATISTIC_JOIN_SUCCESS_TABLE" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="RbUUMxCJgV2qU2qVmSNO-25">
+          <mxGeometry x="120" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-29" value="&lt;div&gt;CREATE TABLE STATION_STATISTIC_JOIN_SUCCESS_TABLE&lt;/div&gt;&lt;div&gt;AS SELECT&lt;/div&gt;&lt;div&gt;&amp;nbsp; K,&lt;/div&gt;&lt;div&gt;&amp;nbsp; RIDE_PASGR_NUM,&lt;/div&gt;&lt;div&gt;&amp;nbsp; ALIGHT_PASGR_NUM,&lt;/div&gt;&lt;div&gt;&amp;nbsp; USE_DATE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; ID,&lt;/div&gt;&lt;div&gt;&amp;nbsp; LATITUDE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; LONGITUDE&lt;/div&gt;&lt;div&gt;FROM JOIN_SS_3_TABLE STAT&lt;/div&gt;&lt;div&gt;WHERE ID IS NOT NULL;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="RbUUMxCJgV2qU2qVmSNO-28">
+          <mxGeometry y="29" width="280" height="211" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-30" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="640" y="1600" width="400" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-31" value="" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="RbUUMxCJgV2qU2qVmSNO-30">
+          <mxGeometry y="94.5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="RbUUMxCJgV2qU2qVmSNO-30" source="RbUUMxCJgV2qU2qVmSNO-34" target="RbUUMxCJgV2qU2qVmSNO-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="110" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-33" value="STATION_STATISTIC_JOIN_FAIL_TABLE" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="RbUUMxCJgV2qU2qVmSNO-30">
+          <mxGeometry x="120" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-34" value="&lt;div&gt;CREATE TABLE STATION_STATISTIC_JOIN_FAIL_TABLE&lt;/div&gt;&lt;div&gt;AS SELECT&lt;/div&gt;&lt;div&gt;&amp;nbsp; K,&lt;/div&gt;&lt;div&gt;&amp;nbsp; RIDE_PASGR_NUM,&lt;/div&gt;&lt;div&gt;&amp;nbsp; ALIGHT_PASGR_NUM,&lt;/div&gt;&lt;div&gt;&amp;nbsp; USE_DATE&lt;/div&gt;&lt;div&gt;FROM JOIN_SS_3_TABLE STAT&lt;/div&gt;&lt;div&gt;WHERE ID IS NULL;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="RbUUMxCJgV2qU2qVmSNO-33">
+          <mxGeometry y="29" width="280" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RbUUMxCJgV2qU2qVmSNO-4" target="RbUUMxCJgV2qU2qVmSNO-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RbUUMxCJgV2qU2qVmSNO-9" target="RbUUMxCJgV2qU2qVmSNO-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jmPw7cZxUE827dNbfJnY-33" target="SGr65tSHeNTUfyerGdpC-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="1160" />
+              <mxPoint x="380" y="1160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RbUUMxCJgV2qU2qVmSNO-14" target="SGr65tSHeNTUfyerGdpC-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="1160" />
+              <mxPoint x="380" y="1160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SGr65tSHeNTUfyerGdpC-89" target="SGr65tSHeNTUfyerGdpC-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-41" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SGr65tSHeNTUfyerGdpC-50" target="RbUUMxCJgV2qU2qVmSNO-26">
+          <mxGeometry x="-0.9079" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RbUUMxCJgV2qU2qVmSNO-42" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SGr65tSHeNTUfyerGdpC-50" target="RbUUMxCJgV2qU2qVmSNO-31">
+          <mxGeometry x="-0.912" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="1560" />
+              <mxPoint x="660" y="1560" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
